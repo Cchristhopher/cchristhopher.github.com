@@ -1,0 +1,40 @@
+a{
+    background-color:#43311F;
+    color: white;
+    margin: 0.3em;
+}
+/* CLASES*/
+
+.cover{
+    height: 400px;
+    background-image: url(cafeindex.jpg);
+    background-color: rgb(68, 64, 64);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 150px;/* tmaben se podia poner en html text-center es de bootstrap*/
+}
+section>div{
+    display: inline-block;
+    margin: 1em;
+}
+.opacidad{
+    filter: brightness(0.5);
+}
+.opacidad:hover{
+    filter: brightness(1);
+}
+.centro{
+    padding-left: 20%;
+
+}
+.card-title{
+    font-family: 'Pacifico', cursive;
+}
+.tira-de-productos{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+/*ESTIQUETAS #*/
