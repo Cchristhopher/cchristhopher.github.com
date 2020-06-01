@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café´Facilito</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-inverse">
+        <ul class="nav nav-pills">
+            <li role="presentation">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  HOME
+                </a>
+            </li>    
+            <li role="presentation">
+                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    NUESTROS PRODUCTOS<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                      <li><a href="#">Regular link</a></li>
+                      <li class="disabled"><a href="#">Disabled link</a></li>
+                      <li><a href="#">Another link</a></li>
+                    </ul>
+            </li>    
+            <li role="presentation">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                ACERCA DE NOSOTROS 
+              </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="cover"> <!--tambien se podria poner en class text-center bootstrap-->
+      <h1>Rapi café</h1>
+      <p>El cafe mas RAPIDO!!!</p>
+      <button>
+        <button type="button" class="btn btn-primary negro">ver más</button>
+      </button>
+    </div>
+  </header>
+
+  <section>
+
+<div class="row"> <!poner centro en clase para ver que esta al centro>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="thumbnail">
+            <img src="1.jpg" alt="..." class="opacidad">
+            <div class="caption">
+              <h3>Nuestras tiendas</h3>
+              <p class=" card-title">Hoy en dia contamos con mas de 1 000 tiendas abiertas en mas de 10 paises europeos y asiaticos</p>
+              <p><a href="#" class="btn btn-primary" role="button">Me interesa</a> <a href="#" class="btn btn-default" role="button">ver mas tarde</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="thumbnail">
+            <img src="2.jpg" alt="..." class="opacidad">
+            <div class="caption">
+              <h3>Nuestros proveedores</h3>
+              <p class=" card-title">Contamos con los mejores proveedores siguiendo estrictas normas de calidad de nuestra empresa</p>
+              <p><a href="#" class="btn btn-primary" role="button">Me interesa</a> <a href="#" class="btn btn-default" role="button">Ver mas tarde</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3"> 
+          <div class="thumbnail">
+            <img src="3.jpg" alt="..." class="opacidad">
+            <div class="caption">
+              <h3>Nuestros  productos</h3>
+              <p class="card-title">Contamos con una gran variedad de productos relacionados con el café , entre granos enteros ,molidos,maquinas de cafe,etc</p>
+              <p><a href="#" class="btn btn-primary" role="button">Me interesa</a> <a href="#" class="btn btn-default" role="button">Ver mas tarde</a></p>
+            </div>
+          </div>
+        </div>
+</div>
+  </section>
+
+  <section>
+    <div class="col-md-6 col-md-offset-3">
+      <div class="row">
+        <div class="col-sm-6 col-lg">
+          <img src="2.jpg">
+        </div>
+        <h2 style="color: brown; text-transform: uppercase;">Inicia tu dia con nosotros</h2>
+        <p> Busca tu cafe en nuetra tienda mas cercana de tu domiciliio o trabajo</p>
+        <a class="btn btn-default" href="#" role="button">Ir a comprar</a>
+      </div>
+       <form action="">
+            <label for="exampleInputEmail1">Correo electronico</label> 
+            <div class="d-flex">
+              <div class="flex-fill mr-2">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              </div>
+              <button type="submit" class="btn btn-primary"> enviar</button>
+            </div>
+       </form>
+    </div>
+  </section>
+<!--tira de productos-->
+<section>
+
+  <div class="row"> <!poner centro en clase para ver que esta al centro>
+    <div class="col-md-6 col-md-offset-3">
+      <div class="tira-de-productos">
+        <div class="thumbnail">
+          <img src="1.jpg">
+          <div class="caption">
+            <h3>Nuestras tiendas</h3>
+            <p class=" card-title">Hoy en dia contamos con mas de 1 000 tiendas abiertas en mas de 10 paises europeos y asiaticos</p>
+            <p><a href="#" class="btn btn-primary" role="button">Me interesa</a> <a href="#" class="btn btn-default" role="button">ver mas tarde</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tira-de-productos">
+        <div class="thumbnail">
+          <img src="2.jpg">
+          <div class="caption">
+            <h3>Nuestros proveedores</h3>
+            <p class=" card-title">Contamos con los mejores proveedores siguiendo estrictas normas de calidad de nuestra empresa</p>
+            <p><a href="#" class="btn btn-primary" role="button">Me interesa</a> <a href="#" class="btn btn-default" role="button">Ver mas tarde</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tira-de-productos"> 
+        <div class="thumbnail">
+          <img src="3.jpg">
+          <div class="caption">
+            <h3>Nuestros  productos</h3>
+            <p class="card-title">Contamos con una gran variedad de productos relacionados con el café , entre granos enteros ,molidos,maquinas de cafe,etc</p>
+            <p><a href="#" class="btn btn-primary" role="button">Me interesa</a> <a href="#" class="btn btn-default" role="button">Ver mas tarde</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</body>
+</html>
